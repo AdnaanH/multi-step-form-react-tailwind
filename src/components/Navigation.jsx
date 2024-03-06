@@ -2,7 +2,7 @@ import backgroundDesktop from '../assets/bg-sidebar-desktop.svg'
 
 function Navigation() {
   return (
-    <div className="flex flex-col p-6 gap-3 items-start justify-start w-full h-full rounded-md bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${backgroundDesktop})` }}>
+    <div className="flex flex-col p- gap-3 items-start justify-start w-full h-full rounded-md bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${backgroundDesktop})` }}>
                   <div className="flex gap-4 justify-start items-center">
                       <strong className='w-8 h-8 rounded-full text-center text-black flex items-center justify-center bg-FlightBlue border-FlightBlue'>1</strong>
                       <div className="flex justify-center items-start gap-0 flex-col">
