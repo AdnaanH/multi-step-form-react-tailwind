@@ -8,3 +8,7 @@
     font-family: "Ubuntu", sans-serif;
   }
 }
+
+.navigation{
+  background-image: url(/bg-sidebar-desktop.svg);
+}

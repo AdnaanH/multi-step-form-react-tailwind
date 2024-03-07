@@ -1,8 +1,7 @@
 function Navigation() {
-  const backgroundDp = '/bg-sidebar-desktop.svg' 
 
   return (
-    <div className="flex flex-col p-4 gap-3 items-start justify-start w-full h-full rounded-md bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${backgroundDp})` }}>
+    <div className="navigation flex flex-col p-4 gap-3 items-start justify-start w-full h-full rounded-md bg-cover bg-no-repeat bg-center">
         <div className="flex gap-4 justify-start items-center">
             <strong className='w-8 h-8 rounded-full text-center text-black flex items-center justify-center bg-FlightBlue border-FlightBlue'>1</strong>
             <div className="flex justify-center items-start gap-0 flex-col">
