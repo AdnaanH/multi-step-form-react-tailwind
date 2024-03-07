@@ -4,7 +4,7 @@ import {Checkbox} from 'flowbite-react'
 function Addon() {
   return (
     <div className="flex flex-col w-full gap-4 my-6">
-        <div className="flex justify-between items-center cursor-pointer bg-Fmagnolia border-2 border-FlightGray px-4 py-2 rounded-md">
+        <div className="flex justify-between items-center cursor-pointer bg-Fmagnolia border-2 border-FlightGray p-2 rounded-md">
             <Checkbox id="accept" defaultChecked />
             <div className="flex flex-col w-4/6">
                 <h5 className='font-bold text-FmarineBlue text-base'>Online service</h5>

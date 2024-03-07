@@ -1,11 +1,12 @@
-import arcade from '../assets/icon-arcade.svg'
-import advanced from '../assets/icon-advanced.svg'
-import pro from '../assets/icon-pro.svg'
-import { ToggleSwitch } from 'flowbite-react';
+import { ToggleSwitch } from 'flowbite-react'
 import { useState } from 'react';
 
 function Plan() {
   const [switch2, setSwitch2] = useState(true);
+
+  const arcade = '/icon-arcade.svg'
+  const advanced = '/icon-advanced.svg'
+  const pro = '/icon-pro.svg'
   
   return (
     <div className="flex flex-col w-full gap-6 my-6">

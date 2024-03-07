@@ -1,6 +1,6 @@
-import success from '../assets/icon-thank-you.svg'
-
 function Success() {
+  const success = '/icon-thank-you.svg'
+  
   return (
       <div className="w-full h-full flex flex-col items-center py-16">
         <img src={success} alt="" className='w-24 h-24' />
